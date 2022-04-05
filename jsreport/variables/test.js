@@ -44,3 +44,8 @@ console.log(hello); */
         times: 4
 
     } */
+
+
+// var obj = null ?? null ?? "hello"
+
+// console.log(obj)
