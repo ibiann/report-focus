@@ -7,7 +7,8 @@ let biến cục bộ, gán lại giá trị k tái khai báo và khi khai báo 
 
 const biến cục bộ, không gán không khai báo lại. giá trị ko thay đổi khi thực hiện. phải khởi tạo giá trị lúc khai báo khi cho message có thể thay đổi thuộc tính message. khai báo biến, mảng, function, pattern(regexp)
 + có thể thay đổi thuộc tính của object
-shorturl.at/rAOU4
+https://caodang.fpt.edu.vn/tin-tuc-poly/phan-biet-su-khac-nhau-giua-var-let-va-const-trong-lap-trinh-es6.html
+
 
 * operator (toán tử)
 
@@ -41,7 +42,7 @@ cũng như method
 - nullish coalesing: toán tử logic có diều kiện, trả giá trị bên phải null hoặc undefined còn ko thì trả về trái như thường
 
 - có cả chức năng gọi hàm
-shorturl.at/pwEH6
+https://viblo.asia/p/optional-chaining-va-nullish-coalescing-operator-trong-javascript-V3m5WQYwZO7
 
 * kiểu dữ liệu
 number: 10,
@@ -104,7 +105,8 @@ parseInt(): phân tích một chuỗi và trả về một số nguyên nếu c�
 parseFloat(): phân tích một chuỗi được cung cấp và trả về một giá trị số
 
 
-* array (mảng)
+* array (mảng) array là đối tượng (obj)
+convert mảng ra chuỗi arr.toString()
 
-
+arr.length trả độ dài của mảng
 
