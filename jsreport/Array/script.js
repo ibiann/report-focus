@@ -46,7 +46,7 @@ console.log(numArr[numArr.length - 1]);  cuối */
 
 // loop mảng
 
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
+/* const fruits = ["Banana", "Orange", "Apple", "Mango"];
 let fLen = fruits.length;
 
 let text = "<ul>";
@@ -55,4 +55,65 @@ for (let i = 0; i < fLen; i++) {
 }
 text += "</ul>";
 
-console.log(text);
+console.log(text); */
+
+
+//arr.length
+
+/* const list = ['1', '2', '3', '4', '5', '6', '7'];
+
+document.write("The length of the list: " + list.length); */
+
+/* const list = ['1', '2', '3', '4', '5', '6', '7'];
+
+document.getElementById("p01").innerHTML = list.length; */
+
+/* const point = new Array(1, 2, 3, 4);
+
+const point = [1, 2, 3, 4];
+
+console.log(point[0]); */
+
+
+
+
+// METHOD
+
+
+
+// mảng ra chỗi toString()
+
+/* const list = ['1, 2, 3, 4'];
+
+console.log(list.toString(" ")); */
+
+
+/* const list = ['1', '2', '3', '4'];
+
+console.log(list.join(" - ")) */
+
+//xoá phần tử cuối
+/* const list = ["1", "2", "3", "4", "5", "6"];
+
+console.log(list.pop());
+ */
+
+//thêm phần tử vào cuối
+
+/* const list = ["1", "2", "3", "4", "5", "6"];
+
+console.log(list.push("7"));
+
+console.log(list);
+ */
+
+// arr.shift()  
+
+/* const list = ['1', '2', '3', '4', '5'];
+
+console.log(list.shift());
+
+console.log(list);
+ */
+
+//arr.unshift thêm phần tử vào đầu mảng

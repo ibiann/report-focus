@@ -54,10 +54,10 @@ boolean: true or false
 * Objects
 
 objectName.propertyName or objectName["propertyName"]
-x = new String();        // Declares x as a String object
+<!-- x = new String();        // Declares x as a String object
 y = new Number();        // Declares y as a Number object
 z = new Boolean();       // Declares z as a Boolean object
-
+ -->
 * Strings
 - so sánh hai object  với từ khoá new luôn trả về false khi dùng ===
 - từ khoá "new": tạo ra đối tượng rỗng thừa kế prototype và khởi tạo constructor(hàm khởi tạo thường đi với this)
@@ -68,7 +68,7 @@ str.slice()  hàm dùng để trích xuất một số phần tử (index) trong
 
 str.substring() giống slice nhưng sẽ không lấy âm
 
-str.substr() các ký tụ trong 1 chuõi bđ với vị tsi đã cho với ký tự xác định//
+str.substr() các ký tụ trong 1 chuõi bđ với vị tsi đã cho với ký tự xác định *************************************
 
 text.replace() thay thế nó bằng một giá trị được cấp
 
@@ -85,7 +85,7 @@ string.startwith(): kiểm tra chuỗi có bắt đầu bằng ký tự chỉ đ
  * string nhiều dòng template (sử dụng nháy đơn)
  sử dụng multiple-line string, biến, biểu thức, hàm bên trong String mà không phải thông qua phép cộng String.
 
-- nội suy:
+- nội suy: gán các biến và biểu thức bên trong một chuỗi 
  Một biểu thức có thể được nhúng trong một placeholder. syntax ${} shorturl.at/eCGYZ, shorturl.at/ehEKP
 
 
@@ -106,7 +106,33 @@ parseFloat(): phân tích một chuỗi được cung cấp và trả về một
 
 
 * array (mảng) array là đối tượng (obj)
-convert mảng ra chuỗi arr.toString()
 
-arr.length trả độ dài của mảng
+hàm khởi tạo dùng khởi tạo obj dùng với toán tử new; tạo obj rỗng, gán cho thuộc tính "this" https://kungfutech.edu.vn/bai-viet/javascript/khoi-tao-doi-tuong-voi-tu-khoa-new-trong-javascript ********************************
 
+<!-- return với một object sẽ trả về object đó, ngược lại thì trả về this -->
+
+arr.length; trả về độ dài của mảng
+
+để lặp qua các phần tử của mảng, truyền đến hàm callback để xử lý
+arr.forEach(function callback(currentValue, index, array)
+
+thêm giá trị vào mảng dùng push()
+
+
+- METHOD: 
+
+arr.toString(); convert mảng ra string kèm phẩy 
+
+join() hoạt động giống toString() nhưng đc phép thêm các phần tử vào chuỗi
+
+hàm arr.pop(): xoá 1 phần tử cuối khỏi mảng 
+
+hàm arr.push(): thêm phần tử vào cuối mảng 
+
+hàm arr.shift(): xoá phần tử đầu tiên của mảng và trả lại ra màn
+
+hàm arr.unshift(): thêm phần tử vào đẩu mảng
+
+hàm arr.concat(arr): kết hợp hai mảng
+
+hàm arr.splice(start, deleteCount, item1, item2, itemN) xoá hoặc thay thế phần tử trong mảng
