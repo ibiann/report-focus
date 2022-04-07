@@ -16,10 +16,10 @@ https://caodang.fpt.edu.vn/tin-tuc-poly/phan-biet-su-khac-nhau-giua-var-let-va-c
 - số học: chia lấy nguyên /; chia lấy dư %
 - gán: chia lấy nguyên xong gán /=; chia lấy dư xong gán %=
 - toán tử logic: 
-&& và
+&& VÀ
 true: 2 giá trị true
 false: 2 giá trị false hoặc 1 false, 1 true
-|| hoặc là
+|| HOẶC LÀ
 true: 2 giá trị true, hoặc 1 false 1 true
 false: 2 giá trị false, ho
 !(not)
@@ -72,13 +72,13 @@ str.substr() các ký tụ trong 1 chuõi bđ với vị tsi đã cho với ký 
 
 text.replace() thay thế nó bằng một giá trị được cấp
 
-- search trong js:
+- SEARCH TRONG STRING JS:
 
-indexOf(item,start) tìm kiếm phần tử trong mảng (dò từ đầu mảng đến cuối mảng, phần tử nào bằng với giá trị truyền vào thì sẽ được trả về.)
+str.indexOf(item,start) tìm kiếm phần tử trong mảng (dò từ đầu mảng đến cuối mảng, phần tử nào bằng với giá trị truyền vào thì sẽ được trả về.)
 
-lastindexOf: trả về vị trị của phần tử cuối cùng được tìm thấy, trả về -1 nếu không tìm thấy.
+str.lastindexOf: trả về vị trị của phần tử cuối cùng được tìm thấy, trả về -1 nếu không tìm thấy.
 
-string.startwith(): kiểm tra chuỗi có bắt đầu bằng ký tự chỉ định hay không. KQ trả về true hoặc false shorturl.at/jxJ79/
+str.startwith(): kiểm tra chuỗi có bắt đầu bằng ký tự chỉ định hay không. KQ trả về true hoặc false shorturl.at/jxJ79/
 
  include(): kiểm tra một mảng để xem nó có bao gồm giá trị cụ thể mà bạn đã cung cấp (tham chiếu start để ktra) shorturl.at/cBGUW
 
@@ -119,7 +119,7 @@ arr.forEach(function callback(currentValue, index, array)
 thêm giá trị vào mảng dùng push()
 
 
-- METHOD: 
+- METHOD MẢNG: 
 
 arr.toString(); convert mảng ra string kèm phẩy 
 
@@ -136,3 +136,27 @@ hàm arr.unshift(): thêm phần tử vào đẩu mảng
 hàm arr.concat(arr): kết hợp hai mảng
 
 hàm arr.splice(start, deleteCount, item1, item2, itemN) xoá hoặc thay thế phần tử trong mảng
+
+hàm arr.slice() lấy 1 phần tử trong mảng nhưng ko thay đổi mảng cũ
+
+
+- SORT (SẮP XẾP):
+
+sử dụng sort đẻ sắp xếp giá trị trong mảng
+
+hàm Math.max.apply(null, arr) tìm giá trị lớn nhất trong mảng
+
+hàm Math.min.apply(null, arr) tìm giá trị bé nhất
+
+- ARRAY MAP (QUAN TRỌNG)
+
+hàm dùng để lặp qua các phần tử của mảng và xử lý giá trị và tạo mảng mới sau xử lý/ hàm callback sẽ thực hiện việc xử lý 
+******************************** https://hoctapsgk.com/cong-nghe-thong-tin/1023-ham-array-map-trong-javascript
+
+arr.map(callbackFunc(currentValue, index, arr));
+
+arr.map(myFunction);
+
+hàm arr.filter() lặp qua qua các phần tử -> hàm sẽ trả về mảng các phần từ thoả mãn điều kiện
+
+arr.filter(callbackFunc(currentValue, index, arr));

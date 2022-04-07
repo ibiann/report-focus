@@ -131,3 +131,117 @@ const length = fullName.unshift("Mark");
 document.write("this is my full name: " + fullName);
 
 document.write("<br> the length of my name is: " + length); */
+
+
+// lấy 1 phần tử mảng nhưng ko thay đổi mảng cũ
+/* const arr = ["1", "2", "3", "4", "5"];
+
+console.log(arr.slice(0, 2));
+
+console.log(arr.slice()); */
+
+
+
+// ARRAY SORT
+
+// arr.sort() + arr.reverse()
+
+/* const arr = [1, 2, 3, 4, 5];
+
+console.log(arr.sort());
+console.log(arr.reverse()); */
+
+
+// function
+
+/* var arr = [40, 100, 1, 5, 25, 10];
+arr.sort(function(a, b) {
+    return (b - a)
+})
+console.log(arr);
+ */
+
+/* const arr = [40, 100, 1, 5, 25, 10];
+
+arr.sort(function(a, b) {
+    return 0.5 - Math.random();
+});
+
+console.log() */
+
+/* const arr = [40, 100, 1, 5, 25, 10];
+
+console.log(arr);
+
+function myFunction() {
+    arr.sort(function(a, b) {
+        return 0.5 - Math.random();
+    });
+    console.log(arr);
+}
+ */
+
+
+// Math.max() tìm giá trị lớn nhất
+
+/* const arr = [40, 100, 1, 5, 25, 10];
+
+
+function myArrayMax(arr) {
+    return Math.max.apply(null, arr);
+}
+
+document.write("the largest number is: " + myArrayMax(arr));
+ */
+
+//return Math.min.apply tìm giá trị bé nhất
+
+/* const arr = [40, 100, 1, 5, 25, 10];
+
+function myFunction() {
+    return Math.min.apply(null, arr);
+}
+
+document.write("this is the smallest number: " + myFunction(arr)); */
+
+// SORT PHỨC TẠP
+/* const cars = [
+    {type:"Volvo", year:2016},
+    {type:"Saab", year:2001},
+    {type:"BMW", year:2010}
+];
+
+// cars.sort(function(a, b) {
+//     let x = a.type.toLowerCase();
+//     let y = b.type.toLowerCase();
+
+//     if (x < y) {
+//         return -1;
+//     } else if (x > y) {
+//         return 1;
+//     }
+// });
+
+function myFunction() {
+    cars.sort((a, b) => {
+        let x = a.type.toLowerCase();
+        let y = b.type.toLowerCase();
+
+        if (x < y) {
+            return -1;
+        } else if (x > y) {
+            return 1;
+        }
+        return 0;
+    });
+
+    displayCars();
+}
+
+function displayCars() {
+    console.log(
+    cars[0].type + " " + cars[0].year + "<br>" +
+    cars[1].type + " " + cars[1].year + "<br>" +
+    cars[2].type + " " + cars[2].year
+    );
+} */
