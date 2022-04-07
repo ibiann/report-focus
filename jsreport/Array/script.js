@@ -117,3 +117,17 @@ console.log(list);
  */
 
 //arr.unshift thêm phần tử vào đầu mảng
+
+/* const list = ["Trung", "Pham", "Chi"];
+
+console.log(list.unshift("Trung"));
+
+console.log(list); */
+
+/* const fullName = new Name ("Trung", "Pham", "Chi");
+
+const length = fullName.unshift("Mark");
+
+document.write("this is my full name: " + fullName);
+
+document.write("<br> the length of my name is: " + length); */
