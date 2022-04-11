@@ -118,6 +118,7 @@ arr.forEach(function callback(currentValue, index, array)
 
 thêm giá trị vào mảng dùng push()
 
+arr.isArray() kiểm tra có phải mảng k
 
 - METHOD MẢNG: 
 
@@ -160,3 +161,34 @@ arr.map(myFunction);
 hàm arr.filter() lặp qua qua các phần tử -> hàm sẽ trả về mảng các phần từ thoả mãn điều kiện
 
 arr.filter(callbackFunc(currentValue, index, arr));
+
+// REDUCE
+arr.reduce(callbackFunc(currentValue, index, arr));
+
+duyệt qua tất cả phần tử của mảng thì kết quả được một giá trị duy nhất ******************************** https://www.youtube.com/watch?v=ml3bZHj2F7k
+
+arr.some() check điều kiện phần tử trong mảng có đúng k 
+
+// FIND
+	
+array.find(function(currentValue, index, arr),thisValue);
+
+trả về 1 giá trị của trong mảng nếu thỏa mãn được điều kiện 
+
+
+* DATE
+
+* Math
+
+Math.round làm tròn gần bằng
+
+Math.ceil() làm tròn lên
+
+Math.floor() làm tròn xuống
+
+Math.trunc() trả về số nguyên ban đầu
+
+Math.sign() trả về nếu x = âm, null hay dương
+
+Math.pow() tính lũy thừa
+

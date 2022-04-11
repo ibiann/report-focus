@@ -50,7 +50,7 @@ const result = num.filter((element, index) => {
 
 console.log(result);  */
 
-const numb = [40, 100, 1, 5, 25, 10];
+/* const numb = [40, 100, 1, 5, 25, 10];
 
     let checkNum = numb.filter((value, index, num) => {
         return (value > 50 && index < 2 && num.length < 10);
@@ -58,4 +58,4 @@ const numb = [40, 100, 1, 5, 25, 10];
     });
 
 
-console.log(checkNum); 
+console.log(checkNum);  */
