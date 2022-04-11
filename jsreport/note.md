@@ -64,11 +64,11 @@ z = new Boolean();       // Declares z as a Boolean object
 
 
 - methods: 
-str.slice()  hàm dùng để trích xuất một số phần tử (index) trong mảng js.
+str.slice()  hàm dùng để xuất một số phần tử (index) trong mảng js.
 
-str.substring() giống slice nhưng sẽ không lấy âm
+str.substring() giống slice nhưng sẽ không lấy âm nếu không có trả về -1
 
-str.substr() các ký tụ trong 1 chuõi bđ với vị tsi đã cho với ký tự xác định *************************************
+str.substr() các ký tự trong 1 chuõi bđ với vị trí đã cho với ký tự xác định *************************************
 
 text.replace() thay thế nó bằng một giá trị được cấp
 
@@ -78,15 +78,15 @@ str.indexOf(item,start) tìm kiếm phần tử trong mảng (dò từ đầu m�
 
 str.lastindexOf: trả về vị trị của phần tử cuối cùng được tìm thấy, trả về -1 nếu không tìm thấy.
 
-str.startwith(): kiểm tra chuỗi có bắt đầu bằng ký tự chỉ định hay không. KQ trả về true hoặc false shorturl.at/jxJ79/
+str.startwith(): kiểm tra chuỗi có bắt đầu bằng ký tự chỉ định hay không. KQ trả về true hoặc false 
 
- include(): kiểm tra một mảng để xem nó có bao gồm giá trị cụ thể mà bạn đã cung cấp (tham chiếu start để ktra) shorturl.at/cBGUW
+ include(): kiểm tra một mảng để xem nó có bao gồm giá trị cụ thể mà bạn đã cung cấp (tham chiếu start để ktra) 
 
  * string nhiều dòng template (sử dụng nháy đơn)
  sử dụng multiple-line string, biến, biểu thức, hàm bên trong String mà không phải thông qua phép cộng String.
 
 - nội suy: gán các biến và biểu thức bên trong một chuỗi 
- Một biểu thức có thể được nhúng trong một placeholder. syntax ${} shorturl.at/eCGYZ, shorturl.at/ehEKP
+ Một biểu thức có thể được nhúng trong một placeholder. syntax ${} 
 
 
 * Numbers: chuyển số thành chuỗi ép kiểu num.toString()
@@ -111,7 +111,7 @@ hàm khởi tạo dùng khởi tạo obj dùng với toán tử new; tạo obj r
 
 <!-- return với một object sẽ trả về object đó, ngược lại thì trả về this -->
 
-arr.length; trả về độ dài của mảng
+arr.length(); trả về độ dài của mảng
 
 để lặp qua các phần tử của mảng, truyền đến hàm callback để xử lý
 arr.forEach(function callback(currentValue, index, array)
